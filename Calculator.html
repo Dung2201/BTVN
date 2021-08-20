@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máy tính cầm tay</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="5">
+                <input class="input" type="text" id="input">
+            </td>
+        </tr>
+        <tr>
+            <td><button onclick='setInput(7)'>7</button></td>
+            <td><button onclick='setInput(8)'>8</button></td>
+            <td><button onclick='setInput(9)'>9</button></td>
+            <td><button>DEL</button></td>
+            <td><button class="del" onclick='ClearInput()'>AC</button></td>
+            
+        </tr>
+        <br>
+        <tr>
+            <td><button onclick='setInput(4)'>4</button></td>
+            <td><button onclick='setInput(5)'>5</button></td>
+            <td><button onclick='setInput(6)'>6</button></td>
+            <td><button onclick='setInput("*")'>X</button></td>
+            <td><button onclick='setInput("/")'>/</button></td>
+            
+        </tr>
+        <tr>
+            <td><button onclick='setInput(1)'>1</button></td>
+            <td><button onclick='setInput(2)'>2</button></td>
+            <td><button onclick='setInput(3)'>3</button></td>
+            <td><button onclick='setInput("+")'>+</button></td>
+            <td><button onclick='setInput("-")'>-</button></td>
+        </tr>
+        <tr>
+            <td class="logo" type="text" colspan="2">CASIO </td>
+            <td><button onclick='setInput(0)'>0</button></td>
+            <td><button onclick='setInput(".")'>.</button></td>
+            <td><button onclick='result()'>=</button></td>
+            
+        </tr>
+    </table>
+    <script src="my3.js"></script>
+</body>
+</html>
