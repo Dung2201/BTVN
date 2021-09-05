@@ -1,0 +1,34 @@
+*{
+    background-color: blanchedalmond;
+    margin: 10px;
+    
+}
+.banggia{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    text-align: left;
+    width: 200px;
+    height: 100px;
+    background-color:whitesmoke;
+    line-height:100px;
+    color:black;
+
+
+}
+button{
+    text-size-adjust: 20px;
+    background-color:red;
+    width: 20%;
+    height: 10%;
+}
+h1,h2,h3{
+    text-align: center;
+}
+h1,h2{
+    color: brown;
+}
+table{
+    color:darkblue;
+    size: 20px;
+}
