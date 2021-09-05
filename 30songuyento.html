@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>In ra 30 số nguyên tố đầu tiên</title>
+</head>
+
+<body>
+    <script>
+        let numbers = parseInt(prompt("Nhập số lượng số nguyên tố bạn muốn xem : "));
+        let count = 0;
+        let N = 2;
+        let a = [];
+        while (count < numbers) {
+            if (prime(N)) {
+                a.push(N);
+                count = count + 1;
+            }
+            N = N + 1;
+        }
+        document.write(numbers + ' số nguyên tố đầu tiên là : ' + a);
+        function prime(num) {
+            if (num < 2) {
+                return false;
+            }
+            if (num === 2) {
+                return true;
+            }
+            else {
+                for (var i = 2; i <= (num / 2); i++) {
+                    if (num % i == 0) {
+                        return false;
+                    }
+                }
+                return true;
+            }
+        }
+    </script>
+</body>
+
+</html>
